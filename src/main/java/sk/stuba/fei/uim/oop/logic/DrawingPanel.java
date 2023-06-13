@@ -107,9 +107,6 @@ public class DrawingPanel extends JPanel implements MouseListener, MouseMotionLi
     }
 
 
-
-
-
     @Override
     public void mouseClicked(MouseEvent e) {}
 

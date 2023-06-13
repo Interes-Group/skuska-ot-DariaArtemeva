@@ -30,9 +30,10 @@ public class Window {
         domButton = new JButton("House");
         presunButton = new JButton("Move");
         changeColorButton = new JButton("Next Color");
-        label = new JLabel("Mode");
+        label = new JLabel("Kreslenie");
         label.setOpaque(true);
 
+        drawingPanel.setDrawingMode(true);
 
         menuPanel.add(domButton);
         menuPanel.add(changeColorButton);
